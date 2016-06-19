@@ -24,7 +24,7 @@ export default class ResolutionsWrapper extends TrackerReact(React.Component) {
     render() {
       let res = this.resolutions();
       if(res.length < 1) {
-        return(<div>loading ...</div>)
+        return(<div><ResolutionsForm /></div>)
       }
       return (
         <div>

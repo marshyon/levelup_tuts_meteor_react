@@ -8,11 +8,6 @@ export default class ResolutionsForm extends Component {
     Meteor.call('addResolution', text, () => {
       this.refs.resolution.value = "";
     });
-    //Resolutions.insert({
-    //    text: text,
-    //    complete: false,
-    //    createdAt: new Date()
-    //});
   }
   render() {
     return (
@@ -20,7 +15,7 @@ export default class ResolutionsForm extends Component {
         <input
           type="text"
           ref="resolution"
-          placeholder="Finish React Meteor Series" />
+          placeholder="Enter a resolution ..." />
       </form>
     )
   }

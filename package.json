@@ -14,5 +14,13 @@
   "main": "index.js",
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "leveluptutorials Meteor React for Everyone",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marshyon/levelup_tuts_meteor_react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marshyon/levelup_tuts_meteor_react/issues"
+  },
+  "homepage": "https://github.com/marshyon/levelup_tuts_meteor_react#readme"
 }
